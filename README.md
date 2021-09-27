@@ -7,20 +7,38 @@ Please fork the project to start a new project
 
 ```
 
-## usage: Development
-use these files as starting point:
+## DEVELOPMENT
+This project uses gulp to bundle and process the application and the final publish files will be in `publish` folder
+
+usage:
+```
+npm run build
+```
+
+use gulpfile.js to further add function for development
+
+## starter files
+use these files as starting point, each file is minimally set for PWA to function:
 
 /manifest.json - controls PWA configuration for installations
+
 /icons/* - contain icons for display in Home screens
+
 /js/pwaScript.js - starting point of javascript for app, registers `service worker` to be used for PWA setup
+
 /serviceWorker.js - allows for PWA to work "offline", this is required for android
+
 /index.html - starting point of website
 
 ## DEPLOYMENT
-1. SSL enabled web server to load the files
+1. SSL enabled web server to load the files from `publish`
 
 ---
 ## further reading: Documentations
 - https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
 - https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs
+
+## how to install webapps in IPhone/Android/Windows and MacOS
+https://mobilesyrup.com/2020/05/24/how-install-progressive-web-app-pwa-android-ios-pc-mac/
+
 more in source.md
