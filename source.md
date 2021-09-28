@@ -16,3 +16,5 @@ https://developers.google.com/web/ilt/pwa
 https://dzone.com/articles/how-to-build-a-progressive-web-app-pwa-with-javasc
 https://www.javatpoint.com/progressive-web-applications
 
+### PWA cache strategy
+https://blog.bitsrc.io/5-service-worker-caching-strategies-for-your-next-pwa-app-58539f156f52

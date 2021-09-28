@@ -4,8 +4,10 @@
   "description": "progressive web app start (simple)",
   "main": "index.html",
   "scripts": {
-    "start": "gulp build",
-    "build": "gulp build"
+    "start": "gulp dev",
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "watch": "gulp watchActivities"
   },
   "keywords": [
     "progressive web app",

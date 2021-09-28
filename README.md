@@ -11,6 +11,13 @@ Please fork the project to start a new project
 This project uses gulp to bundle and process the application and the final publish files will be in `publish` folder
 
 usage:
+
+1. develop with browser-sync, allows live preview and autoreload 
+```
+npm start
+```
+
+2. copy src files to publish for deployment
 ```
 npm run build
 ```
