@@ -20,7 +20,7 @@ self.addEventListener('install', function(e) {
 ////////////////////////////////////////////
 // network first strategy
 ////////////////////////////////////////////
-self.addEventListener(’fetch’, function (e) {
+self.addEventListener('fetch', function (e) {
   e.respondWith(
     fetch(e.request).catch(function() {
       return caches.match(e.request)
